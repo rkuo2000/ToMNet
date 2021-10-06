@@ -43,6 +43,3 @@ class RandomAgent(Agent):
         action_vec = np.zeros(shape=(len(self.actions)))
         action_vec[self.last_action] = 1.0
         return action_vec
-
-
-class Greddy
