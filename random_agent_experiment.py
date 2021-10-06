@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_context('paper')
 
-n_agents_per_species = 1000
+n_agents_per_species = 100
 
 max_episodes = 10
 # this is S(\alpha)
@@ -20,7 +20,7 @@ species = [0.01, 0.03,
             0.1,  0.3,
               1,    3]
 
-# Lets create a sample of 1000 agents in randomly generated POMDPS for each species
+# Lets create a sample of 100 agents in randomly generated POMDPS for each species
 print()
 print('>>> Begin random sampling of Random Agents...')
 print()
